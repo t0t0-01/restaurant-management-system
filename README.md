@@ -64,6 +64,7 @@ To check the notebook of the trained SVMs, refer to the *models* folder. The dat
 
 ## Screenshots
 ### User Flow
+<img width=200 height=200 src="./demos/screenshots/1.jpeg"/>
 ![signin](./demos/screenshots/1.jpeg)
 ![signin](./demos/screenshots/2.jpeg)
 ![signin](./demos/screenshots/3.jpeg)
