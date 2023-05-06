@@ -64,9 +64,11 @@ To check the notebook of the trained SVMs, refer to the *models* folder. The dat
 
 ## Screenshots
 ### User Flow
+#### Sign Up
 <img width=236 height=512 src="./demos/screenshots/1.jpeg"/> <img width=236 height=512 src="./demos/screenshots/2.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/3.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/4.jpeg"/>
+#### Browsing, Booking, Reviewing
 <img width=236 height=512 src="./demos/screenshots/5.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/6.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/7.jpeg"/>
@@ -76,6 +78,8 @@ To check the notebook of the trained SVMs, refer to the *models* folder. The dat
 <img width=236 height=512 src="./demos/screenshots/11.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/12.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/13.jpeg"/>
+
+#### Account Information
 <img width=236 height=512 src="./demos/screenshots/14.jpeg"/>
 
 ### Manager Flow
