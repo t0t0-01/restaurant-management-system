@@ -69,8 +69,7 @@ To check the notebook of the trained SVMs, refer to the *models* folder. The dat
 <img width=236 height=512 src="./demos/screenshots/3.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/4.jpeg"/>
 #### Browsing, Booking, Reviewing
-<img width=236 height=512 src="./demos/screenshots/5.jpeg"/>
-<img width=236 height=512 src="./demos/screenshots/6.jpeg"/>
+<img width=236 height=512 src="./demos/screenshots/5.jpeg"/> <img width=236 height=512 src="./demos/screenshots/6.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/7.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/8.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/9.jpeg"/>
@@ -83,8 +82,7 @@ To check the notebook of the trained SVMs, refer to the *models* folder. The dat
 <img width=236 height=512 src="./demos/screenshots/14.jpeg"/>
 
 ### Manager Flow
-<img width=236 height=512 src="./demos/screenshots/15.jpeg"/>
-<img width=236 height=512 src="./demos/screenshots/16.jpeg"/>
+<img width=236 height=512 src="./demos/screenshots/15.jpeg"/><img width=236 height=512 src="./demos/screenshots/16.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/17.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/18.jpeg"/>
 <img width=236 height=512 src="./demos/screenshots/19.jpeg"/>
