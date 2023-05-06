@@ -50,16 +50,11 @@ To get started with *Plateful*, follow these steps:
 
 
 ## Usage
-[Insert instructions for how to use the app here]
+In the root directory of the project, type the following command in the terminal
+`**npm start**`
 
-Features
-[Insert a list of features that the app offers here]
+Then open Expo Go on your mobile and scan the QR code presented in the terminal.
 
-Contributing
-[Insert guidelines for how to contribute to the project here]
-
-License
-[Insert the type of license that the project uses here]
 
 Screenshots
 [Insert screenshots of the app here]
@@ -70,3 +65,4 @@ Demo
 ## Acknowledgements
 - [Anthony Semaan](https://github.com/anthonySemaan01), Lebanese American University, Byblos, Lebanon
 - [Antonio Chedid](https://github.com/t0t0-01), Lebanese American University, Byblos, Lebanon
+- [Yelp Dataset](https://www.yelp.com/dataset)
