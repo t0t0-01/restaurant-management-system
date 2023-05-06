@@ -1,0 +1,9 @@
+export const PRIMARY_GREEN = "#04cc74";
+export const BACKGROUND_COLOR = "#e3e1e1";
+export const INFO_ICON_COLOR = "#04cc74";
+export const GREY_INFO_ICON_COLOR = "#636363";
+export const LABEL_COLOR = "#04cc74";
+export const INPUT_TEXT_COLOR = "#666666";
+export const CARD_COLOR = "#f9f9f9";
+export const LIGHT_TEXT = "#9e9e9e";
+export const BAD_REVIEW = "#e82525";
