@@ -36,9 +36,6 @@ const SearchScreen = () => {
     }
   };
 
-  // Delete these; these are just for testing the changes in the Flatlist.
-  // Only data should stay, but it should be initialized to something
-
   if (!RESTAURANTS) return null;
 
   return (

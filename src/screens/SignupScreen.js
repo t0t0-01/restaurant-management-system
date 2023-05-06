@@ -23,6 +23,12 @@ import PhoneIn from "../components/PhoneIn";
 import BDayPicker from "../components/BDayPicker";
 import useCustomFont from "../hooks/useCustomFont";
 
+function checkPasswordStrength(password) {
+  const regex =
+    /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+  return regex.test(password);
+}
+
 const SignUpScreen = ({ navigation }) => {
   const insets = useSafeAreaInsets();
   const isFontLoaded = useCustomFont();
@@ -36,6 +42,7 @@ const SignUpScreen = ({ navigation }) => {
   const [day, setDay] = useState(1);
   const [year, setYear] = useState(2000);
   const [selectedIndex, setIndex] = React.useState(0);
+  const [strength, setStrength] = useState(false);
 
   const months = {
     January: "01",
@@ -144,7 +151,21 @@ const SignUpScreen = ({ navigation }) => {
             labelStyle={styles.labelStyle}
             inputStyle={styles.inputStyle}
           />
-          <PasswordInput value={pass} onChangeText={setPass} label="Password" />
+          <PasswordInput
+            value={pass}
+            onChangeText={(val) => {
+              setPass(val);
+              setStrength(checkPasswordStrength(val));
+            }}
+            label="Password"
+          />
+          {!strength & (pass !== "") ? (
+            <Text style={styles.errorText}>
+              Password should be alphanumeric and should contain uppercase,
+              lowercase, and special chars.
+            </Text>
+          ) : null}
+
           <PasswordInput
             value={confirmPass}
             onChangeText={setConfirmPass}
@@ -182,7 +203,7 @@ const SignUpScreen = ({ navigation }) => {
               dob: `${year}-${months[month]}-${day}`,
             })
           }
-          disabled={pass != confirmPass || pass.length == 0}
+          disabled={pass != confirmPass || pass.length == 0 || !strength}
           disabledStyle={{ backgroundColor: "#d1d1d1" }}
         />
       </View>
