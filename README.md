@@ -7,11 +7,11 @@ Plateful is a mobile app built with React Native that allows users to browse thr
 Staff and managers can also log into their accounts to edit information related to their restaurant and view an NLP analysis of the reviews. The NLP model is based on our trained SVMs and OpenAI's GPT API to classify the topics mentioned in the review as well as the sentiment of the user.
 
 ## Table of Contents
-[Installation](#Installation)
-[Usage](#Usage)
-[Features](#Features)
-[Contributing](#Contributing)
-[License](#License)
+[Installation](#Installation)  
+[Usage](#Usage)  
+[Features](#Features)  
+[Contributing](#Contributing)  
+[License](#License)  
 
 ## Installation
 To get started with *Plateful*, follow these steps:
