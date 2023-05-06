@@ -4,7 +4,7 @@
 ## Description
 Plateful is a mobile app built with React Native that allows users to browse through restaurants, view information such as images, contact info, menu, add and view reviews, and place reservations for specific tables at those restaurants. Users will be presented with an interactive UI that represents the layout of the restaurant, which was inferred from the restaurant's floor map using YoloV5 to perform object detection.
 
-Staff and managers can also log into their accounts to edit information related to their restaurant and view an NLP analysis of the reviews. The NLP model is based on our trained SVMs and OpenAI's GPT API to classify the topics mentioned in the review as well as the sentiment of the user.
+Staff and managers can also log into their accounts to edit information related to their restaurant, view an NLP analysis of the reviews, and take orders for their tables. Furthermore, managers can assign staff accounts to their . The NLP model is based on our trained SVMs and OpenAI's GPT API to classify the topics mentioned in the review as well as the sentiment of the user.
 
 ## Table of Contents
 [Installation](#Installation)  
@@ -55,14 +55,21 @@ In the root directory of the project, type the following command in the terminal
 
 Then open Expo Go on your mobile and scan the QR code presented in the terminal.
 
+To check the notebook of the trained SVMs, refer to the *models* folder. The dataset used (Yelp) can be downloaded through [this link](https://www.yelp.com/dataset)
 
-Screenshots
-[Insert screenshots of the app here]
 
-Demo
-[Insert a link to a demo of the app here]
+## Screenshots
+### User Flow
+
+### Staff Flow
+
+### Manager Flow
+
+## Demo
+For full video demos, refer to 
 
 ## Acknowledgements
-- [Anthony Semaan](https://github.com/anthonySemaan01), Lebanese American University, Byblos, Lebanon
 - [Antonio Chedid](https://github.com/t0t0-01), Lebanese American University, Byblos, Lebanon
-- [Yelp Dataset](https://www.yelp.com/dataset)
+- [Anthony Semaan](https://github.com/anthonySemaan01), Lebanese American University, Byblos, Lebanon
+
+
