@@ -28,6 +28,7 @@ To get started with *Plateful*, follow these steps:
 - Python (sklearn, pandas, numpy)
 
 ## Project Structure
+```bash
 .
 ├── src
 │   ├── api
@@ -45,7 +46,7 @@ To get started with *Plateful*, follow these steps:
 │       └── Topic_Sentiment_Classification.ipynb
 |  
 ├── App.js
-
+```
 
 
 ## Usage
