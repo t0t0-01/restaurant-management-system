@@ -38,6 +38,10 @@ To get started with *Plateful*, follow these steps:
 │   ├── screens
 │   └── constants.js
 │     
+├── demos  
+│   ├── screenshots
+│   └── videos
+│     
 ├── assets
 │   └── fonts
 │
@@ -60,13 +64,39 @@ To check the notebook of the trained SVMs, refer to the *models* folder. The dat
 
 ## Screenshots
 ### User Flow
-
-### Staff Flow
+![signin](./demos/screenshots/1.jpeg)
+![signin](./demos/screenshots/2.jpeg)
+![signin](./demos/screenshots/3.jpeg)
+![signin](./demos/screenshots/4.jpeg)
+![signin](./demos/screenshots/5.jpeg)
+![signin](./demos/screenshots/6.jpeg)
+![signin](./demos/screenshots/7.jpeg)
+![signin](./demos/screenshots/8.jpeg)
+![signin](./demos/screenshots/9.jpeg)
+![signin](./demos/screenshots/10.jpeg)
+![signin](./demos/screenshots/11.jpeg)
+![signin](./demos/screenshots/12.jpeg)
+![signin](./demos/screenshots/13.jpeg)
+![signin](./demos/screenshots/14.jpeg)
 
 ### Manager Flow
+![signin](./demos/screenshots/15.jpeg)
+![signin](./demos/screenshots/16.jpeg)
+![signin](./demos/screenshots/17.jpeg)
+![signin](./demos/screenshots/18.jpeg)
+![signin](./demos/screenshots/19.jpeg)
+![signin](./demos/screenshots/20.jpeg)
+![signin](./demos/screenshots/21.jpeg)
+![signin](./demos/screenshots/22.jpeg)
+![signin](./demos/screenshots/23.jpeg)
+![signin](./demos/screenshots/24.jpeg)
+
+### Staff Flow
+![signin](./demos/screenshots/25.jpeg)
+![signin](./demos/screenshots/26.jpeg)
 
 ## Demo
-For full video demos, refer to 
+For full video demos, refer to the demos folder.
 
 ## Acknowledgements
 - [Antonio Chedid](https://github.com/t0t0-01), Lebanese American University, Byblos, Lebanon
